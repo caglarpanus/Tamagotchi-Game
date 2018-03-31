@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="images/tamagotchi.png">
+        <title>Tamagotchi</title>
+        <!-- Compiled and minified CSS for Materialize -->
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+        <!-- <link rel="stylesheet" href="./style.css"> -->
+       <link rel='stylesheet' href='./clean-home.css'>
+       
+       
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src="./home-script.js"></script>
+        <script src="./home.js"></script>
+    </head>
+    <body>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Navbar +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <div class="app-wrapper">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="/home" class="brand-logo">Tamagotchi</a>  <h6 id="welcome">Welcome <span id="member-name"></span></h6>
+                    
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                   <!-- <li><a href="/signup" id="signup">Sign Up</a></li>
+                    <li><a href="/signin" id="signin">Sign In</a></li> -->
+                    <li><a class='logout-button' href="/user/logout">Logout</a></li>
+                    </ul>
+                    
+                    <!--Side Navigation. It will pop up depending on screen size-->
+                    <ul id="slide-out" class="sidenav">
+                        <h5>Menu</h5>
+                            <hr>
+                        <li><a href="/signin"><i class="material-icons">verified_user</i>Sign In</a></li>
+                        <li><a href="/signup"><i class="material-icons">account_box</i>Sign Up</a></li>
+                    </ul>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons" style="font-size: 2.5rem">menu</i></a>
+                </div>  
+            </nav>
+            
+    
+        <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ End Navbar +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Body +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+                    
+            <div style="text-align: center">
+                <h2></h2> 
+                
+            </div>
+            <div class="main-container">
+                    <!--User Enters his/her name or a random tamagotchi name-->
+                <div class="row">
+                    <div class="create-new input-field col s4 offset-s2 name-input">
+                        <div class='create-bar'>
+                            <h2 class="create">Create a New Pet</h2>
+                            <input value="" id="pet-name" type="text" placeholder="Name Your Pet" class="validate">
+                            
+                        <!-- Interation Field -->
+                            <select class="myselect" id='pet-type'>
+                                <option disabled selected id='choice'>Choose What Type of Animal</option>
+                                <option value="dog" data-icon="" class="circle">Dog</option>
+                                <option value="cat" data-icon="" class="circle">Cat</option>
+                                <option value="gorilla" data-icon="" class="circle">Gorilla</option>
+                                <option value="sonic" data-icon="" class="circle">Sonic</option>
+                            </select>
+                            
+                            <a class="waves-effect red lighten-1 btn-large" id="submit-pet">Create!</a>
+                            <!--<a class="waves-effect red lighten-1 btn-large">Button</a>-->
+                        </div>    
+                    </div>
+                    
+                    <div class="middle-field col s2"><h2></h2></div>
+                
+                    <div class="input-field col s4 offset-s1 name-input">
+                        
+                            
+                            <h2 class='choose'>Choose a Pet</h2>
+                            
+                            <ul class="myselect" id="list">
+                                
+                            <ul/>
+                        </div> 
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                       
+                     </div>
+                </div>
+            </div>
+                        <!-- Choices Field for User to pick an avaiable tamagotchi -->
+            </div>
+            
+        <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ End Body +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Footer +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <!--    <footer class="page-footer">
+                    <div class="container">
+                        <h6>@2018 by Jonathan Callahan, Caglar Panus, Elias Martinez, and Anna Tillack</h6>
+                    </div>
+            </footer> -->
+        </div>
+     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ End Footer +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    
+            <!-- Compiled and minified JavaScript for Materialize-->
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/js/userStart.js"></script>
+    
+    </body>
+   
+</html>

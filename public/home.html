@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tomagotchi - Hompage</title>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src='./home-script.js'></script> 
+        <style>
+            a {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id='all-content'>
+            <div id='character-creator'>
+                <h3>Create Your Own Pet</h3>
+                <input id='pet-name' type="text" placeholder="name">
+                <select id='pet-type'>
+                    <option value='dog'>Dog</option>
+                    <option value='cat'>Cat</option>
+                    <option value='bird'>Bird</option>
+                </select>
+                <button id='submit-pet'>Create</button>
+            </div>
+            
+            <div id='character-list'>
+                <h3>Choose a Pet</h3>
+                <ul id='list'>
+                    
+                </ul> 
+            </div>
+        </div>
+    </body>
+</html>

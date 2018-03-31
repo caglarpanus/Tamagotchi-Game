@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="./../images/tamagotchi.png">
+        <title>Tamagotchi</title>
+        <!-- Compiled and minified CSS for Materialize -->
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <link rel="stylesheet" href="./../style-character.css">
+
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src="./../script.js"></script>
+        <link rel="stylesheet" href="./../char-clean.css">
+    </head>
+    <body>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Navbar +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+       
+        <nav class="nav-bar">
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="right">
+                    <li><a href="/user/logout">Sign Out</a></li>
+                </ul>
+            <a class="brand-logo center">Tamagotchi</a>
+                <ul id="home-icon">
+                    <li><a href="/home" class="home-icon"><i class="material-icons" style="font-size: 2.5rem">home</i></a></li>
+                </ul>
+            </div>
+        </nav>
+     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ End Navbar +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+      <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Body +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <div style="text-align: center" class="main-container">
+        <div class="info-container">
+            <div class="game-info">
+                <h2>My Tamagotchi</h2>
+                <h3 id='hunger'>Hunger: <span id="hunger-level">placeholder</span></h3>
+            </div>
+
+        </div>
+
+        <div class="play-container">
+            <div>
+                <img id="character-frame" src="./../images/tamagotchi-frame.png">
+                
+                <img id="character-button" src="./../images/cat-normal.gif">
+                
+            </div>
+            <div class='button-cont'>
+                <div id='sleep-button' class='clear-buttons'> </div>
+                <div id='feed-button' class='clear-buttons'> </div>
+                <div id='button-one' class='clear-buttons'> </div>
+            </div>
+            
+           <!-- <button id='sleep-button' class="game-buttons">Sleep</button>
+             <button id='feed-button' class="game-buttons">Feed</button>
+            <button id='clean-button' class="game-buttons">Clean</button> -->
+
+        </div>
+
+    </div>
+    <!--Home button was moved to the top, just commented out below part in case if we need it -->
+    <!--
+    <div style='text-align: center; margin-top: 15px'>
+        <a href='/home'>Home</a>
+    </div>   
+-->
+        
+
+     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ End Body +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+      <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Footer +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+   <!--     <footer class="page-footer">
+                <div class="container">
+                    <h6>@2018 by Jonathan Callahan, Caglar Panus, Elias Martinez, and Anna Tillack</h6>
+                </div>
+        </footer> -->
+     <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ End Footer +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    
+            <!-- Compiled and minified JavaScript for Materialize-->
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+    </body>
+   
+</html>

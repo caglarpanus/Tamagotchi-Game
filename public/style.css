@@ -1,0 +1,85 @@
+
+.app-wrapper {
+    font-family: 'Press Start 2P', cursive;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    /*display: none;*/
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/* FOOTER */
+.page-footer{
+ 
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding: 20px 0px;
+  
+}
+.page-footer h6{
+    text-align: center;
+    line-height: 1.5;
+    font-size:1.0rem;
+    margin: 0;
+}
+.main-container{
+    height: 550px;
+    padding: 0px 110px;
+}
+/*Navigation */
+.nav-wrapper{
+    padding: 0px 110px;
+}
+#tamagotchi-name{
+    color: #EF5350;
+}
+.select-dropdown{
+    color: #EF5350;
+}
+/* Side Navigation */
+.sidenav h5{
+    text-align: center;
+    color: black;
+}
+/* Body Elements*/
+.middle-field{
+    color: #EF5350;
+}
+#submit-button2{
+    margin-top: 56px;
+}
+
+
+/*  UserSignup Page */
+
+.wrapper{
+    background-image: url("images/background.png");
+    font-family: 'Press Start 2P', cursive;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.sign-up-form,
+.login-form {
+    background-color:white;
+    padding:10px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+#signUpButton {
+    background-color: rgba(236, 111, 117,1);
+    font-family: 'Press Start 2P', cursive;
+}

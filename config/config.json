@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Cag:0511401023",
+    "database": "tomagotchi",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "oh5tse4622r0r9ww",
+    "password": "nqaplsizvhiiprrh",
+    "database": "z4fe6hrk7f0vdoox",
+    "host": "l9dwvv6j64hlhpul.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}

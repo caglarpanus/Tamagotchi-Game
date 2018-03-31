@@ -1,0 +1,42 @@
+.log-cont {
+    background-color: white;
+    height: 2000px;
+    box-shadow: -2px 2px 5px gray;
+}
+
+.other-row {
+    background: linear-gradient(rgb(27, 78, 95), palevioletred);
+    height: 2000px;
+}
+
+.button {
+    background-color: palevioletred
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.image {
+    display: inline-block;
+    height: 150px;
+}
+
+H2 {
+    font-family: 'Press Start 2P';
+    color: palevioletred;
+}
+
+.image-container {
+    margin-top: 350px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.validate {
+    color: lightblue;
+}
+
+#sign-up-link {
+    margin-left: 10px;
+}

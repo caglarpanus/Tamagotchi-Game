@@ -1,0 +1,31 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "Project 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathantcallahan/project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathantcallahan/project-2/issues"
+  },
+  "homepage": "https://github.com/jonathantcallahan/project-2#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.14.2",
+    "moment": "^2.21.0",
+    "mysql2": "^1.5.3",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.37.4"
+  }
+}
