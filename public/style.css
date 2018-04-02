@@ -35,12 +35,13 @@
 /*Navigation */
 .nav-wrapper{
     padding: 0px 110px;
+    background-color: palevioletred;
 }
 #tamagotchi-name{
-    color: #EF5350;
+    color: palevioletred;
 }
 .select-dropdown{
-    color: #EF5350;
+    color:  palevioletred;
 }
 /* Side Navigation */
 .sidenav h5{
@@ -49,7 +50,7 @@
 }
 /* Body Elements*/
 .middle-field{
-    color: #EF5350;
+    color: palevioletred;
 }
 #submit-button2{
     margin-top: 56px;

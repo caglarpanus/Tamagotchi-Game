@@ -69,79 +69,7 @@ body{
     right: 260px;
     bottom: 80px;
 }
-/*Buttons 
-.game-buttons{
-   
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 75%;
-    z-index: 1;
-    position: relative;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
-}
-#sleep-button{
-    bottom: 72px;
-    background-color: rgb(151, 151, 217);
-    padding: 15px 25px;
-    outline: none;
-    border: none;
-    box-shadow: 0 9px #999;
-    color: rgb(151, 151, 217);
-}
-#sleep-button:hover{
-    background-color: rgb(86, 86, 202);
-}
 
-#feed-button{
-    left: 90px;
-    bottom: 72px;
-    background-color: rgb(245, 111, 99);
-    padding: 15px 25px;
-    outline: none;
-    border: none;
-    box-shadow: 0 9px #999;
-    color:  rgb(245, 111, 99);
-}
-
-#feed-button:hover{
-    background-color:  rgb(197, 89, 79);
-}
-
-#clean-button{
-    right: 137px;
-    bottom: 72px;
-    background-color: rgb(134, 198, 134);
-    padding: 15px 25px;
-    outline: none;
-    border: none;
-    box-shadow: 0 9px #999;
-    color: rgb(134, 198, 134);
-}
-
-#clean-button:hover{
-    background-color:  rgb(107, 157, 107);
-}
-
-#sleep-button:active{
-    background-color: rgb(86, 86, 202);
-     box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
-#feed-button:active{
-    background-color: rgb(197, 89, 79);
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-*/
 #clean-button:active{
     background-color: (107, 157, 107);
     box-shadow: 0 5px #666;
